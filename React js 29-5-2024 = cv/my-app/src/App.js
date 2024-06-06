@@ -1,10 +1,17 @@
 import React from "react";
 import "./App.css";
-import profilePicture from "./images/profile.jpg"; // Replace with your profile picture path
+import profilePicture from "./images/profile.jpg";
+
+// Replace with your profile picture path
 
 function App() {
   return (
+
+
     <div className="resume">
+
+
+
       <div className="left-column">
         <div className="profile-picture">
           <img src={profilePicture} alt="Profile" />
@@ -96,6 +103,7 @@ function App() {
         </div>
       </div>
     </div>
+  
   );
 }
 
