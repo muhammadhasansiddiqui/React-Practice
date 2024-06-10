@@ -1,0 +1,31 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .my-swal-popup {
+    background-color: black; /* Example: AliceBlue background */
+    border-radius: 15px; /* Example: Rounded corners */
+  }
+  
+  .my-swal-title {
+    color: #ffff !important; /* Example: Dark text color */
+    font-family: 'Arial', sans-serif; /* Example: Custom font */
+  }
+  
+  .my-swal-confirm-button {
+    background-color: black !important; /* Example: Green background */
+    color: white !important; /* Example: White text color */
+    border: none; /* Example: Remove border */
+    padding: 10px 20px; /* Example: Padding */
+    border-radius: 5px; /* Example: Rounded corners */
+    font-size: 16px; /* Example: Font size */
+    cursor: pointer; /* Example: Pointer cursor on hover */
+  }
+  
+  .my-swal-confirm-button:hover {
+    background-color: black !important;
+    color: #ffff !important; /* Example: Darker green on hover */
+  }  
